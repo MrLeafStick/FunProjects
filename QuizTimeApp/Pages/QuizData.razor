@@ -1,0 +1,12 @@
+﻿@page "/QuizTime";
+
+@inject IHttpClientFactory _clientFactory
+
+<h3>Quiz Data</h3>
+
+@code {
+    protected override Task OnInitializedAsync()
+    {
+        var request = new HttpRequestMessage(HttpMethod.Get);
+    }
+}
