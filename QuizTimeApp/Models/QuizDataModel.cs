@@ -16,4 +16,5 @@ namespace QuizTimeApp.Models
 
         public string Answer { get; set; }
     }
+
 }
