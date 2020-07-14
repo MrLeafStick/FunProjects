@@ -4,9 +4,72 @@
 
 <h3>Quiz Data</h3>
 
+@if (string.IsNullOrWhiteSpace(errorString) == false)
+{
+    <div class="h2">@errorString</div>
+}
+else if (quizTime is null)
+{
+    <div class="h4">Loading...</div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>Title</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var q in quizList.Data)
+            {
+                <tr>
+                    <td>@quizList.Id</td>   
+                    <td>@q.Title</td>
+                    <td>@q.Answer</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
 @code {
-    protected override Task OnInitializedAsync()
+    QuizDataModel quizTime;
+    QuizTime quizList;
+    string errorString;
+
+    protected override async Task OnInitializedAsync()
     {
-        var request = new HttpRequestMessage(HttpMethod.Get);
+        //var request = new HttpRequestMessage(HttpMethod.Get,
+        //    "https://raw.githubusercontent.com/MrLeafStick/FunProjects/master/QuizTimeApp/Data/MOCK_DATA.json");
+
+        //var client = _clientFactory.CreateClient();
+
+        //HttpResponseMessage response = await client.SendAsync(request);
+
+        //if (response.IsSuccessStatusCode)
+        //{
+        //    quizTime = await response.Content.ReadFromJsonAsync<QuizDataModel>();
+        //}
+        //else
+        //{
+        //    errorString = $"There was an error getting our forecast: { response.ReasonPhrase }";
+        //}
+
+        var client = _clientFactory.CreateClient();
+
+        try
+        {
+            quizTime = await client.GetFromJsonAsync<QuizDataModel>("https://raw.githubusercontent.com/MrLeafStick/FunProjects/master/QuizTimeApp/Data/MOCK_DATA.json");
+            errorString = null;
+        }
+        catch (Exception ex)
+        {
+            errorString = $"There was an error getting the questions: { ex.Message } ";
+
+        }
+
+
     }
 }
