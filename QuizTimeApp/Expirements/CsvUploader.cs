@@ -12,9 +12,9 @@ namespace QuizTimeApp.Expirements
 {
     public class CsvUploader
     {
-        public void data()
+        public void Data()
         {
-            var data = File.ReadLines("filecsv")
+            var data = File.ReadLines(@"~/../Data/MOCK_DATA.csv")
                 .Select(line => line.Split(','))
                 .Select(tokens => 
                 new csvModelData {Id = tokens[0], 
@@ -23,7 +23,7 @@ namespace QuizTimeApp.Expirements
                                        Email = tokens[3], 
                                        Gender = tokens[4], 
                                        Country = tokens[5]}).ToList();
-            }
+        }
     }
 }
 

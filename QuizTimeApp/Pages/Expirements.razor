@@ -1,10 +1,41 @@
 ﻿<h3>Expirements</h3>
 @page "/expirements"
 @inject IHttpClientFactory _clientFactory
-    
+
+
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>First_name</th>
+            <th>Last_name</th>
+            <th>Gender</th>
+            <th>Email</th>
+            <th>Country</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var people in Data)
+        {<tr>
+            <td>@people.First_name</td>
+            <td> @people.Last_name</td>
+            <td>@people.Gender</td>
+            <td> @people.Email</td>
+            <td>@people.Country</td>
+            <td><button class="btn btn-danger" >Delete</button></td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+
 @errorMessage
 
 @code {
+    List<csvModelData> Data;
 
     string errorMessage;
 
@@ -12,9 +43,18 @@
     {
         try
         {
-            var csvData = new CsvUploader();
-
-            
+            Data = File.ReadLines(@"~/../Data/MOCK_DATA.csv")
+                           .Select(line => line.Split(','))
+                           .Select(tokens =>
+                           new csvModelData
+                           {
+                               Id = tokens[0],
+                               First_name = tokens[1],
+                               Last_name = tokens[2],
+                               Email = tokens[3],
+                               Gender = tokens[4],
+                               Country = tokens[5]
+                           }).Skip(1).ToList();
         }
         catch (Exception ex)
         {
@@ -24,5 +64,10 @@
 
 
 
+    }
+
+    public async void DeletePerson(string Id)
+    {
+        Data = Data.Where(x => x.Id != Id).ToList();
     }
 }

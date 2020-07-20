@@ -56,7 +56,6 @@ C:\Users\kenne\source\repos\QuizTimeApp\QuizTimeApp\obj\Debug\netcoreapp3.1\Quiz
 C:\Users\kenne\Source\Repos\FunProjects\QuizTimeApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\kenne\Source\Repos\FunProjects\QuizTimeApp\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\kenne\Source\Repos\FunProjects\QuizTimeApp\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\kenne\Source\Repos\FunProjects\QuizTimeApp\bin\Debug\netcoreapp3.1\Data\MOCK_DATA.json
 C:\Users\kenne\Source\Repos\FunProjects\QuizTimeApp\bin\Debug\netcoreapp3.1\QuizTimeApp.exe
 C:\Users\kenne\Source\Repos\FunProjects\QuizTimeApp\bin\Debug\netcoreapp3.1\QuizTimeApp.deps.json
 C:\Users\kenne\Source\Repos\FunProjects\QuizTimeApp\bin\Debug\netcoreapp3.1\QuizTimeApp.runtimeconfig.json
@@ -165,3 +164,6 @@ C:\Users\klt\Source\Repos\FunProjects\QuizTimeApp\obj\Debug\netcoreapp3.1\QuizTi
 C:\Users\klt\Source\Repos\FunProjects\quiztimeapp\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Expirements.razor.g.cs
 C:\Users\klt\Source\Repos\FunProjects\quiztimeapp\obj\Debug\netcoreapp3.1\Razor\Pages\Expirements.razor.g.cs
 C:\Users\klt\Source\Repos\FunProjects\quiztimeapp\obj\Debug\netcoreapp3.1\QuizTimeApp.csprojAssemblyReference.cache
+C:\Users\kenne\Source\Repos\FunProjects\QuizTimeApp\obj\Debug\netcoreapp3.1\QuizTimeApp.csprojAssemblyReference.cache
+C:\Users\kenne\Source\Repos\FunProjects\QuizTimeApp\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Expirements.razor.g.cs
+C:\Users\kenne\Source\Repos\FunProjects\QuizTimeApp\obj\Debug\netcoreapp3.1\Razor\Pages\Expirements.razor.g.cs

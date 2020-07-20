@@ -14,4 +14,5 @@ namespace QuizTimeApp.Models
         public string Gender { get; set; }
         public string Country {get;set;}
     }
+
 }
