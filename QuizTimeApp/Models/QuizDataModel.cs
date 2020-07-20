@@ -5,12 +5,6 @@ using System.Threading.Tasks;
 
 namespace QuizTimeApp.Models
 {
-    public class QuizTime
-    {
-        public QuizDataModel[] Data { get; set; }
-        public int Id { get; set;}
-    }
-
     public class QuizDataModel
     {
         public int QuizId { get; set; }

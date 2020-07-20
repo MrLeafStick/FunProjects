@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6qL2G0kSCbIxUwVldQ0rgUsnyzTZ3WdLPqL3l97dnhksgqVclplJQT/OWCGr7goHuv6BHuBFTHqjjbZK8coLQQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\klt\\Source\\Repos\\FunProjects\\QuizTimeApp\\QuizTimeApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\klt\\.nuget\\packages\\system.net.http.json\\3.2.0\\system.net.http.json.3.2.0.nupkg.sha512",
+    "C:\\Users\\klt\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

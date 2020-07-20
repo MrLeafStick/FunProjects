@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kenne\\Source\\Repos\\FunProjects\\QuizTimeApp\\QuizTimeApp.csproj": {}
+    "C:\\Users\\klt\\Source\\Repos\\FunProjects\\QuizTimeApp\\QuizTimeApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kenne\\Source\\Repos\\FunProjects\\QuizTimeApp\\QuizTimeApp.csproj": {
+    "C:\\Users\\klt\\Source\\Repos\\FunProjects\\QuizTimeApp\\QuizTimeApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kenne\\Source\\Repos\\FunProjects\\QuizTimeApp\\QuizTimeApp.csproj",
+        "projectUniqueName": "C:\\Users\\klt\\Source\\Repos\\FunProjects\\QuizTimeApp\\QuizTimeApp.csproj",
         "projectName": "QuizTimeApp",
-        "projectPath": "C:\\Users\\kenne\\Source\\Repos\\FunProjects\\QuizTimeApp\\QuizTimeApp.csproj",
-        "packagesPath": "C:\\Users\\kenne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kenne\\Source\\Repos\\FunProjects\\QuizTimeApp\\obj\\",
+        "projectPath": "C:\\Users\\klt\\Source\\Repos\\FunProjects\\QuizTimeApp\\QuizTimeApp.csproj",
+        "packagesPath": "C:\\Users\\klt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\klt\\Source\\Repos\\FunProjects\\QuizTimeApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\kenne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\klt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,16 +56,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -74,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
