@@ -86,6 +86,13 @@ using QuizTimeApp.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "C:\Users\klt\Source\Repos\FunProjects\QuizTimeApp\_Imports.razor"
+using QuizTimeApp.Expirements;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {

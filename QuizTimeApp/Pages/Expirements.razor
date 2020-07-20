@@ -1,0 +1,28 @@
+﻿<h3>Expirements</h3>
+@page "/expirements"
+@inject IHttpClientFactory _clientFactory
+    
+@errorMessage
+
+@code {
+
+    string errorMessage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var csvData = new CsvUploader();
+
+            
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"{ex.Message}";
+            throw;
+        }
+
+
+
+    }
+}

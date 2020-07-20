@@ -91,6 +91,13 @@ using QuizTimeApp.Models;
 #line hidden
 #nullable disable
 #nullable restore
+#line 12 "C:\Users\klt\Source\Repos\FunProjects\QuizTimeApp\_Imports.razor"
+using QuizTimeApp.Expirements;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "C:\Users\klt\Source\Repos\FunProjects\QuizTimeApp\Pages\FetchData.razor"
 using QuizTimeApp.Data;
 
